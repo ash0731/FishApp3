@@ -42,11 +42,11 @@ public class MainActivity extends AppCompatActivity {
             }
 
              public void Map(View view) {
-                 Intent a = new Intent(this, MapActivity.class);
+                 Intent a = new Intent(this, MapsActivity.class);
                  startActivity(a);
              }
     public void Map2(View view) {
-        Intent b = new Intent(this,MapActivity.class);
+        Intent b = new Intent(this,MapsActivity.class);
         startActivity(b);
     }
 
